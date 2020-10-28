@@ -1,0 +1,155 @@
+header img {
+  display: block;
+}
+img {
+  max-width: 100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  font-family: "Sora", sans-serif;
+}
+main {
+  min-height: 80vh;
+}
+#banner-block {
+  min-height: 400px;
+  position: relative;
+}
+#banner-block .background-black {
+  background: #1d1d1d;
+  position: absolute;
+  z-index: -10;
+  height: 100%;
+  width: 100%;
+}
+#banner-block img {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  height: 100%;
+}
+
+#cta-block {
+}
+#infographic-block {
+}
+#gridBlock {
+  min-height: 500px;
+}
+#whats {
+  min-height: 400px;
+  padding-top: 96px;
+  padding-bottom: 48px;
+}
+
+#whats h2 {
+  height: 38px;
+  color: #0c1b2b;
+  font-family: Sora;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 38px;
+}
+
+#whats h3 {
+  height: 26px;
+  color: #3861ad;
+  font-family: Sora;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+#lines-container {
+  position: fixed;
+  left: 0;
+  width: 100vw;
+}
+#lines-container span {
+  height: 2px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  display: block;
+}
+#lines-container span:nth-of-type(4n + 1) {
+  background-color: #548fc6;
+}
+#lines-container span:nth-of-type(4n + 2) {
+  background-color: #46bf6d;
+}
+#lines-container span:nth-of-type(4n + 3) {
+  background-color: #f34f56;
+}
+#lines-container span:nth-of-type(4n) {
+  background-color: #f8ad56;
+}
+
+#canvas {
+  position: fixed;
+  z-index: -1;
+}
+
+.grid-2 .item {
+  display: inline-block;
+  width: 48%;
+  margin-top: 24px;
+}
+.grid-2 .item:nth-of-type(2n + 1) {
+  padding-right: 16px;
+}
+
+.grid-2 .item:nth-of-type(2n) {
+  padding-left: 16px;
+  float: right;
+}
+
+.grid-2::after {
+  clear: both;
+}
+
+.grid-2 {
+  max-width: 1080px;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  clear: both;
+  overflow: auto;
+}
+
+.grid-2 img {
+  max-width: 100%;
+}
+
+.grid-3 {
+  max-width: 1080px;
+  position: relative;
+  margin: 0 auto;
+  clear: both;
+}
+
+.grid-3 .item {
+  display: inline-block;
+  position: relative;
+  width: 31%;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  clear: both;
+  overflow: auto;
+}
+
+.grid-3 .item:nth-of-type(2n + 2) {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.row {
+  max-width: 1080px;
+  position: relative;
+  margin: 0 auto;
+}
